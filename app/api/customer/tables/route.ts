@@ -54,3 +54,4 @@ export const GET = handle(async (req) => {
 
   return ok({ tables });
 });
+

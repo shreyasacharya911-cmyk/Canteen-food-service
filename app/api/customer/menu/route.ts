@@ -19,3 +19,4 @@ export const GET = handle(async () => {
   const items = ((data ?? []) as MenuItemRow[]).map(mapMenuItem);
   return ok({ items });
 });
+

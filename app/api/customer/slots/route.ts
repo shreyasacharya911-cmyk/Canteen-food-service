@@ -71,3 +71,4 @@ export const GET = handle(async (req) => {
 
   return ok({ now: nowIso, slots });
 });
+
