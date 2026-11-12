@@ -1,8 +1,7 @@
-import { NextResponse } from 'next/server';
+import { ok } from '@/lib/api-server';
 
 export const dynamic = 'force-dynamic';
 
 export async function GET() {
-  return NextResponse.json({ data: { ok: true } }, { status: 200 });
+  return ok({ ok: true });
 }
-
